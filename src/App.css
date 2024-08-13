@@ -6,6 +6,7 @@
 
 #root {
   height: 100vh;
+  
 }
 
 .container-fluid {
@@ -14,14 +15,21 @@
 
 .row {
   height: 90%;
+  
 }
 
 .col {
   height: 100%;
+  margin-bottom: 20px;
 }
 
-.container {
+.preview-container {
   height: 100%;
+}
+
+.editor-container {
+  height: 100%;
+  max-height: 90vh;
 }
 
 form {
@@ -37,4 +45,9 @@ form {
 
 #preview {
   margin: 0 20px;
+}
+
+blockquote {
+  padding-left: 10px;
+  border-left: 5px solid rgb(124, 124, 124);
 }
